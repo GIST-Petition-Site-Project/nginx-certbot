@@ -9,6 +9,10 @@ setup with nginx.
 This is useful when you need to set up nginx as a reverse proxy for an
 application.
 
+## Modify Code Place
+1. `init-letsencrypt.sh` domains
+2. `data/nginx/app.conf` server_name & ssl_certificate
+
 ## Installation
 1. [Install docker-compose](https://docs.docker.com/compose/install/#install-compose).
 
